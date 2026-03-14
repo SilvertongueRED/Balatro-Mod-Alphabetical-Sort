@@ -14,4 +14,6 @@ Click the **sort button** at the top of the Mods menu to cycle between sort mode
 
 Requires [Steamodded](https://github.com/Steamopollys/Steamodded) 1.x.
 
-Drop the mod folder into your Balatro `Mods` directory. OR open with Github Desktop for ease of updating the mod via this mod! https://github.com/SilvertongueRED/Balatro-Automatic-Mod-Updater
+Drop the `Balatro-Mod-Sort` folder into your Balatro `Mods` directory. OR open with Github Desktop for ease of updating the mod via this mod! https://github.com/SilvertongueRED/Balatro-Automatic-Mod-Updater
+
+> **Note:** This mod was previously named `Balatro-Mod-Alphabetical-Sort`. If you are upgrading, delete the old folder and use the new `Balatro-Mod-Sort` folder instead.
