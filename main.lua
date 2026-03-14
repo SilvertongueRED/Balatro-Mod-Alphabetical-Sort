@@ -35,13 +35,10 @@ local function _display_name(mod)
 end
 
 local function _group(mod)
-  -- Keep Steamodded's current grouping idea:
-  -- 1) enabled mods with config
-  -- 2) enabled mods
-  -- 3) disabled mods
-  if mod and mod.disabled then return 3 end
-  if mod and mod.config_tab then return 1 end
-  return 2
+  -- 1) all enabled mods (with or without config) sorted together
+  -- 2) disabled mods
+  if mod and mod.disabled then return 2 end
+  return 1
 end
 
 local function _sorted_copy(mod_list)
