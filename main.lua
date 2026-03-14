@@ -294,7 +294,7 @@ local function _sort_button_row()
       nodes = {{
         n = G.UIT.T,
         config = {
-          text = SORT_LABELS[_current_sort] or "Sort: A→Z",
+          text = SORT_LABELS[_current_sort] or SORT_LABELS.alpha,
           scale = 0.3,
           colour = G.C.WHITE,
           shadow = true,
