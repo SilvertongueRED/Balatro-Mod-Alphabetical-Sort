@@ -7,7 +7,7 @@
     "ChatGPT",
     "Claude"
   ],
-  "icon": "icon.png",
+  "icon": "modicon.png",
   "description": "Sort your Mods menu by name, recently updated, or config changes — without changing load order.",
   "prefix": "bms",
   "main_file": "main.lua",
